@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://mkanf3yi7oly" path="res://assets/map/map.png" id="1_lkur0"]
 [ext_resource type="Texture2D" uid="uid://nv46fr0r4awl" path="res://assets/map/grass.png" id="1_mehcf"]
 [ext_resource type="PackedScene" uid="uid://b0apqjbh6pn4c" path="res://src/player/player.tscn" id="1_ocx43"]
+[ext_resource type="PackedScene" uid="uid://d0g5btlqp2mpx" path="res://src/enemies/head/head.tscn" id="4_42sgc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_42sgc"]
 texture = ExtResource("1_mehcf")
@@ -70,3 +71,7 @@ tile_set = SubResource("TileSet_mehcf")
 rendering_quadrant_size = 32
 
 [node name="player" parent="." unique_id=1369526102 instance=ExtResource("1_ocx43")]
+
+[node name="head" parent="." unique_id=773935459 node_paths=PackedStringArray("target") instance=ExtResource("4_42sgc")]
+position = Vector2(58, 22)
+target = NodePath("../player")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlcllpj0k65hr"
-path="res://.godot/imported/galfo.png-df39f7516854670460e7f90b8e5a90e8.ctex"
+uid="uid://b3yk6pilxk871"
+path="res://.godot/imported/walk_particle.png-5ff2b24bf52d845845cf69d0abf38837.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/galfo.png"
-dest_files=["res://.godot/imported/galfo.png-df39f7516854670460e7f90b8e5a90e8.ctex"]
+source_file="res://assets/player/walk_particle.png"
+dest_files=["res://.godot/imported/walk_particle.png-5ff2b24bf52d845845cf69d0abf38837.ctex"]
 
 [params]
 
